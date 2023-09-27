@@ -1,0 +1,9 @@
+.search {
+  display: flex;
+  margin: 15px 0;
+}
+
+.searchBox{
+  background-color: #FFF;
+  font-family: 'Raleway', sans-serif;
+}

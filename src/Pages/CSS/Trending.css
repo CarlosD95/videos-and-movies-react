@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&family=Ubuntu:ital@1&display=swap');
+
+.trending {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.pageTitle{
+  font-size: 40px;
+  font-family: 'Ubuntu', sans-serif;
+}
