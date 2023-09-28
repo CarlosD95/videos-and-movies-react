@@ -8,8 +8,6 @@ import Carousel from '../Components/Carousel';
 import { useTheme } from '@mui/material/styles';
 import './CSS/ContentModal.css';
 
-
-
 const useStyles = makeStyles(() => ({
   modal: {
     display: "flex",
