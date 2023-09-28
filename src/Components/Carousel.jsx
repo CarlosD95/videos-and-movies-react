@@ -12,7 +12,7 @@ const Carousel = ({ id, media_type }) => {
     const [credits, setCredits] = useState([]);
 
     const items = credits.map((e) => (
-      <div className="carouselItem">
+      <div style={{fontSize: '12px'}} className="carouselItem">
         <img
           src={e.profile_path ? `${img_300}/${e.profile_path}` : noPicture}
           alt={e?.name}
@@ -26,13 +26,13 @@ const Carousel = ({ id, media_type }) => {
 
     const responsive = {
       0: {
-        items: 3,
+        items: 2,
       },
       512: {
-        items: 5,
+        items: 3,
       },
       1024: {
-        items: 7,
+        items: 5,
       },
     };
 

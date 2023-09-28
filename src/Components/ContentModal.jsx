@@ -17,14 +17,15 @@ const useStyles = makeStyles(() => ({
     justifyContent: "center",
   },
   paper: {
-    width: "45%",
+    width: "60%",
     height: "70%",
     backgroundColor: "#39445a",
-    border: "1px solid #282c34",
+    border: "2px solid #282c34",
     borderRadius: 10,
     color: "white",
     boxShadow: useTheme().shadows[5],
-    padding: useTheme().spacing(1, 1, 7),
+    padding: useTheme().spacing(1, 1, 5),
+    fontSize: '20px',
   },
 }));
 
@@ -126,7 +127,7 @@ function ContentModal({ children, media_type, id }) {
                     content.tagline && (<i className='tagline'>{content.tagline}</i>)
                   }
                   <span 
-                    style={{fontSize: '12px'}}
+                    style={{fontSize: '10px'}}
                     className='contentModal-description'
                   >
                     {content.overview}
@@ -135,7 +136,7 @@ function ContentModal({ children, media_type, id }) {
                     <Carousel id={id} media_type={media_type} />
                   </div>
                   <Button
-                    style={{width: '80%', fontSize: '10px', margin: '0 auto', textAlign: 'center'}}
+                    style={{width: '80%', fontSize: '14px', margin: '0 auto', textAlign: 'center'}}
                     variant='contained'
                     color = 'secondary'
                     target = '_blank'
